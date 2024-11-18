@@ -7,6 +7,10 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timezone, timedelta
 import time
+import jellyfish
+from Levenshtein import distance
+from fuzzywuzzy import fuzz
+import epitran
 
 df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
 
@@ -44,5 +48,22 @@ text_input = st.text_input(
     )
 
 if st.button('Validate Business Name'):
-    
-        st.dataframe(pd.DataFrame(df_plot['Prediction']), height=300, width=400)
+    df_bn['levenshtein'] = df_bn['Company Name '].apply(lambda x: jellyfish.levenshtein_distance(text_input, x))
+    df_bn['soundex'] = df_bn['Company Name '].apply(lambda x: fuzz.ratio(jellyfish.soundex(text_input), 
+                                                                         jellyfish.soundex(x)))
+    df_bn['metaphone'] = df_bn['Company Name '].apply(lambda x: fuzz.ratio(jellyfish.metaphone(text_input), 
+                                                                           jellyfish.metaphone(x)))
+
+    # Create columns for the title and logo
+col2, col3 = st.columns([3.5, 1])  # Adjust the ratio as needed
+
+# Title in the first column
+with col2:
+    st.title("Spelling Similarity")
+    df_spell = df_bn.loc[df_bn['levenshtein'] <= 5].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
+    st.dataframe(df_spell, height=300, width=400)
+# Logo and "Developed by CAIR" text in the second column
+with col3:
+    st.title("Phonetic Similarity")
+    df_sound = df_bn.loc[df_bn['metaphone'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
+    st.dataframe(df_sound, height=300, width=400)
