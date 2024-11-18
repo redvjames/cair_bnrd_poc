@@ -41,7 +41,6 @@ horizon = st.sidebar.radio(
 
 text_input = st.text_input(
         "Input Business Name 👇",
-        placeholder=st.session_state.placeholder,
     )
 
 if st.button('Validate Business Name'):
