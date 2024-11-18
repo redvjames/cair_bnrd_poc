@@ -59,9 +59,9 @@ if st.button('Validate Business Name'):
     with col2:
         st.write("Spelling Similarity")
         df_spell = df_bn.loc[df_bn['levenshtein'] <= 10].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
-        st.dataframe(df_spell, height=100, width=200)
+        st.dataframe(df_spell, height=200, width=200)
     
     with col3:
         st.write("Phonetic Similarity")
         df_sound = df_bn.loc[df_bn['soundex'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
-        st.dataframe(df_sound, height=100, width=200)
+        st.dataframe(df_sound, height=200, width=200)
