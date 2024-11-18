@@ -8,6 +8,12 @@ import numpy as np
 from datetime import datetime, timezone, timedelta
 import time
 
+# Initialize 'visibility' in session state
+st.session_state.setdefault("visibility", "visible")
+
+# Use the session state value
+label_visibility = st.session_state.visibilit
+
 df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
 
 # Create columns for the title and logo
@@ -17,7 +23,7 @@ col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
 with col1:
     st.title("📋 Energy Consumption Forecasting POC")
     st.write(
-        "This app check for similarity of an input business name with existing registered businesses."
+        "This app checks for similarity of an input business name with existing registered businesses."
     )
 # Logo and "Developed by CAIR" text in the second column
 with col2:
