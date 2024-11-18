@@ -33,11 +33,11 @@ with col2:
 
 threshold_spell = st.sidebar.slider(
     "Levenshtein Similarity Score", 0, 30, 1)
-)
+
 
 threshold_sound = st.sidebar.slider(
     "Levenshtein Similarity Score", 100, 50, 5)
-)
+
 
 text_input = st.text_input(
         "Input Business Name 👇",
