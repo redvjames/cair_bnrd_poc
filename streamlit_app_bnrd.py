@@ -5,11 +5,18 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 import pandas as pd
 import numpy as np
+import re
 from datetime import datetime, timezone, timedelta
 import time
 import jellyfish
 from fuzzywuzzy import fuzz
 import epitran
+
+def clean_text(text):
+    return re.sub(r'[^A-Za-z0-9 ]', '', text)
+
+df_data = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
+df_data['Business Name'] = df_data['Company Name '].str.lower().apply(clean_text)
 
 # Create columns for the title and logo
 col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
@@ -32,23 +39,24 @@ with col2:
         unsafe_allow_html=True)
 
 threshold_spell = st.sidebar.slider(
-    "Levenshtein Similarity Score", min_value=0, max_value=30, step=1, value=10)
+    "Spelling Similarity Threshold Score", min_value=0, max_value=100, step=5, value=60)
 
 
 threshold_sound = st.sidebar.slider(
-    "Soundex Similarity Score", min_value=100, max_value=50, step=5, value=70)
+    "Phonetics Similarity Threshold Score", min_value=0, max_value=100, step=5, value=70)
 
 
 text_input = st.text_input(
         "Input Business Name 👇",
     )
+input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
 
 if st.button('Validate Business Name'):
-    df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
-    df_bn['levenshtein'] = df_bn['Company Name '].apply(lambda x: jellyfish.levenshtein_distance(text_input, x))
-    df_bn['soundex'] = df_bn['Company Name '].apply(lambda x: fuzz.ratio(jellyfish.soundex(text_input), 
+    df_bn = df_data.copy()
+    df_bn['levenshtein'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(input_bn, x))
+    df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
                                                                          jellyfish.soundex(x)))
-    df_bn['metaphone'] = df_bn['Company Name '].apply(lambda x: fuzz.ratio(jellyfish.metaphone(text_input), 
+    df_bn['metaphone'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.metaphone(input_bn), 
                                                                            jellyfish.metaphone(x)))
 
     # Create columns for the title and logo
@@ -57,7 +65,7 @@ if st.button('Validate Business Name'):
     # Title in the first column
     with col2:
         st.write("Spelling Similarity")
-        df_spell = df_bn.loc[df_bn['levenshtein'] <= threshold_spell].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
+        df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
         st.dataframe(df_spell, height=300, width=300)
     
     with col3:
