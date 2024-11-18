@@ -8,7 +8,7 @@ import numpy as np
 from datetime import datetime, timezone, timedelta
 import time
 
-df_bn = pd.read_csv('./data/company.csv', index_col=0)
+df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']])
 
 # Create columns for the title and logo
 col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
