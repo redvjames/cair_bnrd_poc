@@ -18,8 +18,8 @@ def clean_text(text):
 df_data = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
 df_data['Business Name'] = df_data['Company Name '].str.lower().apply(clean_text)
 
-epi = epitran.Epitran('eng-Latn')
-# df_data['ipa'] = df_data['Business Name'].apply(lambda x: epi.transliterate(x))
+epi = epitran.Epitran('tgl-Latn')
+df_data['ipa'] = df_data['Business Name'].apply(lambda x: epi.transliterate(x))
 # st.dataframe(df_data[['Business Name', 'ipa']], height=300, width=300)
 
 # Create columns for the title and logo
@@ -54,9 +54,9 @@ text_input = st.text_input(
         "Input Business Name 👇",
     )
 input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
+input_bn = epi.transliterate(input_bn)
 
 if st.button('Validate Business Name'):
-    # st.write(epi.transliterate(input_bn))
     df_bn = df_data.copy()
     df_bn['levenshtein'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(input_bn, x))
     df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
