@@ -31,13 +31,12 @@ with col2:
         """, 
         unsafe_allow_html=True)
 
-horizon = st.sidebar.radio(
-    "Forecast Length",
-    ["1 Day", "1 Week"],
-    captions=[
-        "24 Hours",
-        "168 Hours"
-    ], horizontal=True
+threshold_spell = st.sidebar.slider(
+    "Levenshtein Similarity Score", 0, 30, 1)
+)
+
+threshold_sound = st.sidebar.slider(
+    "Levenshtein Similarity Score", 100, 50, 5)
 )
 
 text_input = st.text_input(
@@ -58,10 +57,10 @@ if st.button('Validate Business Name'):
     # Title in the first column
     with col2:
         st.write("Spelling Similarity")
-        df_spell = df_bn.loc[df_bn['levenshtein'] <= 10].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
-        st.dataframe(df_spell, height=200, width=200)
+        df_spell = df_bn.loc[df_bn['levenshtein'] <= threshold_spell].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
+        st.dataframe(df_spell, height=300, width=300)
     
     with col3:
         st.write("Phonetic Similarity")
-        df_sound = df_bn.loc[df_bn['soundex'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
-        st.dataframe(df_sound, height=200, width=200)
+        df_sound = df_bn.loc[df_bn['soundex'] >= threshold_sound].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
+        st.dataframe(df_sound, height=300, width=300)
