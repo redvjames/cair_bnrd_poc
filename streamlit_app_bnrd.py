@@ -54,7 +54,7 @@ if st.button('Validate Business Name'):
                                                                            jellyfish.metaphone(x)))
 
     # Create columns for the title and logo
-    col2, col3 = st.columns([3.5, 1])  # Adjust the ratio as needed
+    col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
     
     # Title in the first column
     with col2:
