@@ -63,5 +63,5 @@ if st.button('Validate Business Name'):
     
     with col3:
         st.write("Phonetic Similarity")
-        df_sound = df_bn.loc[df_bn['metaphone'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
+        df_sound = df_bn.loc[df_bn['soundex'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
         st.dataframe(df_sound, height=100, width=200)
