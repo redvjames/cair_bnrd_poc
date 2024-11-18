@@ -8,7 +8,6 @@ import numpy as np
 from datetime import datetime, timezone, timedelta
 import time
 import jellyfish
-from Levenshtein import distance
 from fuzzywuzzy import fuzz
 import epitran
 
