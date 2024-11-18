@@ -58,11 +58,11 @@ if st.button('Validate Business Name'):
     
     # Title in the first column
     with col2:
-        st.title("Spelling Similarity")
+        st.write("Spelling Similarity")
         df_spell = df_bn.loc[df_bn['levenshtein'] <= 10].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
         st.dataframe(df_spell, height=100, width=200)
     # Logo and "Developed by CAIR" text in the second column
     with col3:
-        st.title("Phonetic Similarity")
+        st.write("Phonetic Similarity")
         df_sound = df_bn.loc[df_bn['metaphone'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
         st.dataframe(df_sound, height=100, width=200)
