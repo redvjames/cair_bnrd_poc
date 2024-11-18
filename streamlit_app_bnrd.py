@@ -11,8 +11,6 @@ import jellyfish
 from fuzzywuzzy import fuzz
 import epitran
 
-df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
-
 # Create columns for the title and logo
 col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
 
@@ -47,6 +45,7 @@ text_input = st.text_input(
     )
 
 if st.button('Validate Business Name'):
+    df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
     df_bn['levenshtein'] = df_bn['Company Name '].apply(lambda x: jellyfish.levenshtein_distance(text_input, x))
     df_bn['soundex'] = df_bn['Company Name '].apply(lambda x: fuzz.ratio(jellyfish.soundex(text_input), 
                                                                          jellyfish.soundex(x)))
@@ -61,7 +60,7 @@ if st.button('Validate Business Name'):
         st.write("Spelling Similarity")
         df_spell = df_bn.loc[df_bn['levenshtein'] <= 10].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
         st.dataframe(df_spell, height=100, width=200)
-    # Logo and "Developed by CAIR" text in the second column
+    
     with col3:
         st.write("Phonetic Similarity")
         df_sound = df_bn.loc[df_bn['metaphone'] >= 70].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
