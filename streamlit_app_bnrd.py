@@ -56,7 +56,7 @@ text_input = st.text_input(
 input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
 
 if st.button('Validate Business Name'):
-    st.write(epi.transliterate(input_bn))
+    # st.write(epi.transliterate(input_bn))
     df_bn = df_data.copy()
     df_bn['levenshtein'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(input_bn, x))
     df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
