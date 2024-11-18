@@ -54,7 +54,6 @@ text_input = st.text_input(
         "Input Business Name 👇",
     )
 input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
-input_bn = epi.transliterate(input_bn)
 
 if st.button('Validate Business Name'):
     df_bn = df_data.copy()
@@ -63,6 +62,7 @@ if st.button('Validate Business Name'):
                                                                          jellyfish.soundex(x)))
     df_bn['metaphone'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.metaphone(input_bn), 
                                                                            jellyfish.metaphone(x)))
+    df_bn['epitran'] = df_bn['ipa'].apply(lambda x: fuzz.ratio(epi.transliterate(input_bn), x))
 
     # Create columns for the title and logo
     col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
@@ -75,5 +75,5 @@ if st.button('Validate Business Name'):
     
     with col3:
         st.write("Phonetic Similarity")
-        df_sound = df_bn.loc[df_bn['soundex'] >= threshold_sound].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
+        df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('metaphone', ascending=False)[['Company Name ']].reset_index(drop=True)
         st.dataframe(df_sound, height=300, width=300)
