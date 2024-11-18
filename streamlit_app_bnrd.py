@@ -70,12 +70,14 @@ if st.button('Validate Business Name'):
     # Title in the first column
     with col2:
         st.write("Spelling Similarity")
-        df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell].sort_values('levenshtein')[['Company Name ', 
-                                                                                                  'levenshtein']].reset_index(drop=True)
+        df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell].sort_values('levenshtein', 
+                                                                                  ascending=False)[['Company Name ', 
+                                                                                                    'levenshtein']].reset_index(drop=True)
         st.dataframe(df_spell, height=300, width=300)
     
     with col3:
         st.write("Phonetic Similarity")
-        df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('metaphone', ascending=False)[['Company Name ', 
-                                                                                                             'epitran']].reset_index(drop=True)
+        df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('metaphone', 
+                                                                              ascending=False)[['Company Name ', 
+                                                                                                'epitran']].reset_index(drop=True)
         st.dataframe(df_sound, height=300, width=300)
