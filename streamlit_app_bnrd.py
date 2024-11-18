@@ -18,6 +18,10 @@ def clean_text(text):
 df_data = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
 df_data['Business Name'] = df_data['Company Name '].str.lower().apply(clean_text)
 
+epi = epitran.Epitran('eng-Latn')
+df_data['ipa'] = df_bn['Business Name'].apply(lambda x: epi(x)))
+st.dataframe(df_data, height=300, width=300)
+
 # Create columns for the title and logo
 col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
 
