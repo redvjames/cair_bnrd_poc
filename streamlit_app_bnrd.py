@@ -12,7 +12,7 @@ import time
 st.session_state.setdefault("visibility", "visible")
 
 # Use the session state value
-label_visibility = st.session_state.visibilit
+label_visibility = st.session_state.visibility
 
 df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
 
