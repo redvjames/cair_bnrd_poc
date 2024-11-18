@@ -18,7 +18,7 @@ col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
 
 # Title in the first column
 with col1:
-    st.title("📋 Energy Consumption Forecasting POC")
+    st.title("📋 BNRD Business Name Validation")
     st.write(
         "This app checks for similarity of an input business name with existing registered businesses."
     )
@@ -59,7 +59,7 @@ col2, col3 = st.columns([3.5, 1])  # Adjust the ratio as needed
 # Title in the first column
 with col2:
     st.title("Spelling Similarity")
-    df_spell = df_bn.loc[df_bn['levenshtein'] <= 5].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
+    df_spell = df_bn.loc[df_bn['levenshtein'] <= 10].sort_values('levenshtein')[['Company Name ']].reset_index(drop=True)
     st.dataframe(df_spell, height=300, width=400)
 # Logo and "Developed by CAIR" text in the second column
 with col3:
