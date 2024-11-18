@@ -1,4 +1,5 @@
 streamlit>=1.36.0
+pysqlite3-binary==0.5.3
 pandas
 numpy
 fuzzywuzzy
