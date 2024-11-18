@@ -8,12 +8,6 @@ import numpy as np
 from datetime import datetime, timezone, timedelta
 import time
 
-# Initialize 'visibility' in session state
-st.session_state.setdefault("visibility", "visible")
-
-# Use the session state value
-label_visibility = st.session_state.visibility
-
 df_bn = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
 
 # Create columns for the title and logo
@@ -47,8 +41,6 @@ horizon = st.sidebar.radio(
 
 text_input = st.text_input(
         "Input Business Name 👇",
-        label_visibility=st.session_state.visibility,
-        disabled=st.session_state.disabled,
         placeholder=st.session_state.placeholder,
     )
 
