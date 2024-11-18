@@ -7,8 +7,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timezone, timedelta
 import time
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
 
 try:
     df_input = pd.read_csv('./data/data.csv', index_col=0)
