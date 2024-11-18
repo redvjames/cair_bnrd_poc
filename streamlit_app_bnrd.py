@@ -32,11 +32,11 @@ with col2:
         unsafe_allow_html=True)
 
 threshold_spell = st.sidebar.slider(
-    "Levenshtein Similarity Score", 0, 30, 1)
+    "Levenshtein Similarity Score", min_value=0, max_value=30, step=1, value=10)
 
 
 threshold_sound = st.sidebar.slider(
-    "Levenshtein Similarity Score", 100, 50, 5)
+    "Soundex Similarity Score", min_value=100, max_value=50, step=5, value=70)
 
 
 text_input = st.text_input(
