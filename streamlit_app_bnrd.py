@@ -59,7 +59,7 @@ if st.button('Validate Business Name'):
     df_bn = df_data.copy()
     df_bn['levenshtein'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(input_bn, x))
 
-    if 100 in df['levenshtein'].values:
+    if 100 in df_bn['levenshtein'].values:
         st.write(f"Business Name already exists")
     else:
         df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
