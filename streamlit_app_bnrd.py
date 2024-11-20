@@ -79,6 +79,6 @@ if st.button('Validate Business Name'):
         with col3:
             st.write("Phonetic Similarity")
             df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('epitran', 
-                                                                                  ascending=False)[['Company Name ', 
+                                                                                  ascending=False)[['Company Name', 
                                                                                                     'epitran']].reset_index(drop=True)
             st.dataframe(df_sound, height=300, width=300)
