@@ -70,7 +70,7 @@ if st.button('Validate Business Name'):
         
         if (df_bn['levenshtein'] < threshold_spell[0]).all() & (df_bn['epitran'] < threshold_sound[0]).all():
             st.write(f"Approved Business Name")
-        elif (df_bn['levenshtein'] > threshold_spell[1]).any() & (df_bn['epitran'] < threshold_sound[1]).any():
+        elif (df_bn['levenshtein'] >= threshold_spell[1]).any() & (df_bn['epitran'] >= threshold_sound[1]).any():
             df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell[1]].sort_values('levenshtein', 
                                                                                       ascending=False)[['Company Name', 
                                                                                                         'levenshtein']].reset_index(drop=True)
