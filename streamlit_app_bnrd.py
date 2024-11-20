@@ -29,7 +29,7 @@ col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
 with col1:
     st.title("📋 BNRD Business Name Validation")
     st.write(
-        "This app checks for similarity of an input business name with existing registered businesses."
+        "This app checks for similarity of an input business name with existing registered business names."
     )
 # Logo and "Developed by CAIR" text in the second column
 with col2:
