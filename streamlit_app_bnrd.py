@@ -15,7 +15,7 @@ import epitran
 def clean_text(text):
     return re.sub(r'[^A-Za-z0-9 ]', '', text)
 
-df_data = pd.read_csv('./company_v2.csv')[['Dominant_Name']]\
+df_data = pd.read_csv('./data/company_v2.csv')[['Dominant_Name']]\
                             .rename(columns={'Dominant_Name': 'Company Name'})
 df_data['Business Name'] = df_data['Company Name'].str.lower().apply(clean_text)
 
