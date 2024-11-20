@@ -15,12 +15,12 @@ import epitran
 def clean_text(text):
     return re.sub(r'[^A-Za-z0-9 ]', '', text)
 
-df_data = pd.read_csv('./data/company.csv', on_bad_lines='skip')[['Company Name ']]
-df_data['Business Name'] = df_data['Company Name '].str.lower().apply(clean_text)
+df_data = pd.read_csv('./company_v2.csv')[['Dominant_Name']]\
+                            .rename(columns={'Dominant_Name': 'Company Name'})
+df_data['Business Name'] = df_data['Company Name'].str.lower().apply(clean_text)
 
 epi = epitran.Epitran('tgl-Latn')
 df_data['ipa'] = df_data['Business Name'].apply(lambda x: epi.transliterate(x))
-# st.dataframe(df_data[['Business Name', 'ipa']], height=300, width=300)
 
 # Create columns for the title and logo
 col1, col2 = st.columns([3.5, 1])  # Adjust the ratio as needed
@@ -72,13 +72,13 @@ if st.button('Validate Business Name'):
         with col2:
             st.write("Spelling Similarity")
             df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell].sort_values('levenshtein', 
-                                                                                      ascending=False)[['Company Name ', 
+                                                                                      ascending=False)[['Company Name', 
                                                                                                         'levenshtein']].reset_index(drop=True)
             st.dataframe(df_spell, height=300, width=300)
         
         with col3:
             st.write("Phonetic Similarity")
-            df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('metaphone', 
+            df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('epitran', 
                                                                                   ascending=False)[['Company Name ', 
                                                                                                     'epitran']].reset_index(drop=True)
             st.dataframe(df_sound, height=300, width=300)
