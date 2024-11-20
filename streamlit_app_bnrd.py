@@ -43,7 +43,9 @@ with col2:
         unsafe_allow_html=True)
 
 threshold_spell = st.sidebar.slider(
-    "Spelling Similarity Threshold Score", min_value=0, max_value=100, step=5, value=60)
+    "Spelling Similarity Threshold Score", min_value=0, max_value=100, step=5, value=[60,80])
+
+st.write(threshold_spell)
 
 
 threshold_sound = st.sidebar.slider(
