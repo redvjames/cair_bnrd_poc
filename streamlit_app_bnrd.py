@@ -45,11 +45,8 @@ with col2:
 threshold_spell = st.sidebar.slider(
     "Spelling Similarity Threshold Score", min_value=0, max_value=100, step=5, value=[60,80])
 
-st.write(threshold_spell)
-
-
 threshold_sound = st.sidebar.slider(
-    "Phonetics Similarity Threshold Score", min_value=0, max_value=100, step=5, value=70)
+    "Phonetics Similarity Threshold Score", min_value=0, max_value=100, step=5, value=[60,80])
 
 
 text_input = st.text_input(
@@ -64,23 +61,42 @@ if st.button('Validate Business Name'):
     if 100 in df_bn['levenshtein'].values:
         st.write(f"Business Name already exists")
     else:
-        df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
-                                                                             jellyfish.soundex(x)))
-        df_bn['metaphone'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.metaphone(input_bn), 
-                                                                               jellyfish.metaphone(x)))
+        # df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
+        #                                                                      jellyfish.soundex(x)))
+        # df_bn['metaphone'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.metaphone(input_bn), 
+        #                                                                        jellyfish.metaphone(x)))
         df_bn['epitran'] = df_bn['ipa'].apply(lambda x: fuzz.ratio(epi.transliterate(input_bn), x))
-    
-        col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
-        with col2:
-            st.write("Spelling Similarity")
-            df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell].sort_values('levenshtein', 
+
+        
+        if (df_bn['levenshtein'] < threshold_spell[0]).all() & (df_bn['epitran'] < threshold_sound[0]).all():
+            st.write(f"Approved Business Name")
+        elif (df_spell['levenshtein'] > threshold_spell[1]).any() & (df_sound['epitran'] < threshold_sound[1]).any():
+            df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell[1]].sort_values('levenshtein', 
                                                                                       ascending=False)[['Company Name', 
                                                                                                         'levenshtein']].reset_index(drop=True)
-            st.dataframe(df_spell, height=300, width=300)
-        
-        with col3:
-            st.write("Phonetic Similarity")
-            df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound].sort_values('epitran', 
-                                                                                  ascending=False)[['Company Name', 
-                                                                                                    'epitran']].reset_index(drop=True)
-            st.dataframe(df_sound, height=300, width=300)
+            df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound[1]].sort_values('epitran', 
+                                                                                      ascending=False)[['Company Name', 
+                                                                                                        'epitran']].reset_index(drop=True)
+            st.write(f"Business Name is too similar with an exisiting Busines Name")
+            col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
+            with col2:
+                st.write("Spelling Similarity")
+                st.dataframe(df_spell, height=300, width=300)
+            with col3:
+                st.write("Phonetic Similarity")
+                st.dataframe(df_sound, height=300, width=300)
+        else:
+            df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell[0]].sort_values('levenshtein', 
+                                                                                      ascending=False)[['Company Name', 
+                                                                                                        'levenshtein']].reset_index(drop=True)
+            df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound[0]].sort_values('epitran', 
+                                                                                      ascending=False)[['Company Name', 
+                                                                                                        'epitran']].reset_index(drop=True)
+            st.write(f"For Post Evaluation")
+            col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
+            with col2:
+                st.write("Spelling Similarity")
+                st.dataframe(df_spell, height=300, width=300)
+            with col3:
+                st.write("Phonetic Similarity")
+                st.dataframe(df_sound, height=300, width=300)
