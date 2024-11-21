@@ -1,0 +1,288 @@
+,Company Name ,Symbol ,Sector ,Sub-Sector ,Listing Date ,Listing Board ,Dominant_Name,Shares?,Duplicated?
+0,Asia Amalgamated Holdings Corporation,AAA,HOLDING FIRMS,HOLDING FIRMS,3/22/1973,Main Board,Asia Amalgamated Holdings,FALSE,FALSE
+1,"Atok-Big Wedge Co., Inc.",AB,MINING & OIL,MINING,1/8/1948,Main Board,Atok-Big Wedge,FALSE,FALSE
+2,"AbaCore Capital Holdings, Inc.",ABA,HOLDING FIRMS,HOLDING FIRMS,10/28/1987,Main Board,AbaCore Capital Holdings,FALSE,FALSE
+3,Asiabest Group International Inc.,ABG,HOLDING FIRMS,HOLDING FIRMS,7/10/1979,Main Board,Asiabest Group International,FALSE,FALSE
+4,ABS-CBN Corporation,ABS,SERVICES,MEDIA,7/8/1992,Main Board,ABS-CBN,FALSE,FALSE
+5,Ayala Corporation,AC,HOLDING FIRMS,HOLDING FIRMS,11/8/1976,Main Board,Ayala,FALSE,FALSE
+6,Acesite (Phils.) Hotel Corporation,ACE,SERVICES,HOTEL & LEISURE,12/5/1986,Main Board,Acesite (Phils.) Hotel,FALSE,FALSE
+7,ACEN CORPORATION,ACEN,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,ACEN,FALSE,FALSE
+8,"Alsons Consolidated Resources, Inc.",ACR,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Alsons Consolidated Resources,FALSE,FALSE
+9,"Aboitiz Equity Ventures, Inc.",AEV,HOLDING FIRMS,HOLDING FIRMS,11/16/1994,Main Board,Aboitiz Equity Ventures,FALSE,FALSE
+10,"Alliance Global Group, Inc.",AGI,HOLDING FIRMS,HOLDING FIRMS,4/19/1999,Main Board,Alliance Global Group,FALSE,FALSE
+11,Arthaland Corporation,ALCO,PROPERTY,PROPERTY,3/19/1996,Main Board,Arthaland,FALSE,FALSE
+12,"Anchor Land Holdings, Inc.",ALHI,PROPERTY,PROPERTY,8/8/2007,Main Board,Anchor Land Holdings,FALSE,FALSE
+13,"Ayala Land, Inc.",ALI,PROPERTY,PROPERTY,7/5/1991,Main Board,Ayala Land,FALSE,FALSE
+14,"AllDay Marts, Inc.",ALLDY,SERVICES,RETAIL,11/3/2021,Main Board,AllDay Marts,FALSE,FALSE
+15,AyalaLand Logistics Holdings Corp.,ALLHC,PROPERTY,PROPERTY,2/28/1990,Main Board,AyalaLand Logistics Holdings,FALSE,FALSE
+16,Alternergy Holdings Corporation,ALTER,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Alternergy Holdings,FALSE,FALSE
+17,"AgriNurture, Inc.",ANI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,5/25/2009,AgriNurture,FALSE,FALSE
+18,A. Soriano Corporation,ANS,HOLDING FIRMS,HOLDING FIRMS,10/25/1973,Main Board,A. Soriano,FALSE,FALSE
+19,Aboitiz Power Corporation,AP,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Aboitiz Power,FALSE,FALSE
+20,"APC Group, Inc.",APC,SERVICES,OTHER SERVICES,3/8/1994,Main Board,APC Group,FALSE,FALSE
+21,"Apollo Global Capital, Inc.",APL,SERVICES,INFORMATION TECHNOLOGY,10/18/2012,Main Board,Apollo Global Capital,FALSE,FALSE
+22,Anglo Philippine Holdings Corporation,APO,HOLDING FIRMS,HOLDING FIRMS,7/31/1959,Main Board,Anglo Philippine Holdings,FALSE,FALSE
+23,"Altus Property Ventures, Inc.",APVI,PROPERTY,PROPERTY,6/26/2020,Main Board,Altus Property Ventures,FALSE,FALSE
+24,"Apex Mining Co., Inc.",APX,MINING & OIL,MINING,3/7/1974,Main Board,Apex Mining,FALSE,FALSE
+25,Abra Mining & Industrial Corporation,AR,MINING & OIL,MINING,12/24/1969,Main Board,Abra Mining & Industrial,FALSE,FALSE
+26,"Araneta Properties, Inc.",ARA,PROPERTY,PROPERTY,11/14/1989,Main Board,Araneta Properties,FALSE,FALSE
+27,"AREIT, Inc.",AREIT,PROPERTY,PROPERTY,8/13/2020,Main Board,AREIT,FALSE,FALSE
+28,Raslag Corp.,ASLAG,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Raslag,FALSE,FALSE
+29,Atlas Consolidated Mining and Development Corporation,AT,MINING & OIL,MINING,11/17/1970,Main Board,Atlas Consolidated Mining and Development,FALSE,FALSE
+30,"Asian Terminals, Inc.",ATI,SERVICES,TRANSPORTATION SERVICES,1/25/1996,Main Board,Asian Terminals,FALSE,FALSE
+31,"ATN Holdings, Inc. ``A``",ATN,HOLDING FIRMS,HOLDING FIRMS,9/24/1970,Main Board,ATN Holdings,FALSE,FALSE
+32,Asia United Bank Corporation,AUB,FINANCIALS,BANKS,5/17/2013,Main Board,Asia United Bank,FALSE,FALSE
+33,Axelum Resources Corp.,AXLM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,10/7/2019,Axelum Resources,FALSE,FALSE
+34,Balai Ni Fruitas Inc.,BALAI,SME,SME,6/30/2022,SME Board,Balai Ni Fruitas,FALSE,FALSE
+35,Benguet Corporation ``A``,BC,MINING & OIL,MINING,1/4/1950,Main Board,Benguet,FALSE,FALSE
+36,"Berjaya Philippines, Inc.",BCOR,SERVICES,RETAIL,11/29/1948,Main Board,Berjaya Philippines,FALSE,FALSE
+37,"BDO Unibank, Inc.",BDO,FINANCIALS,BANKS,5/21/2002,Main Board,BDO Unibank,FALSE,FALSE
+38,Belle Corporation,BEL,SERVICES,CASINOS & GAMING,2/2/1977,Main Board,Belle,FALSE,FALSE
+39,"BHI Holdings, Inc.",BH,HOLDING FIRMS,HOLDING FIRMS,11/2/1966,Main Board,BHI Holdings,FALSE,FALSE
+40,"Boulevard Holdings, Inc.",BHI,SERVICES,HOTEL & LEISURE,4/28/1997,Main Board,Boulevard Holdings,FALSE,FALSE
+41,Bright Kindle Resources & Investments Inc.,BKR,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,3/21/1995,Main Board,Bright Kindle Resources & Investments,FALSE,FALSE
+42,Bloomberry Resorts Corporation,BLOOM,SERVICES,CASINOS & GAMING,10/17/2000,Main Board,Bloomberry Resorts,FALSE,FALSE
+43,"Bogo-Medellin Milling Co., Inc.",BMM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,11/16/1950,Bogo-Medellin Milling,FALSE,FALSE
+44,Bank of Commerce,BNCOM,FINANCIALS,BANKS,3/31/2022,Main Board,Bank of Commerce,FALSE,FALSE
+45,Bank of the Philippine Islands,BPI,FINANCIALS,BANKS,10/12/1971,Main Board,Bank of the Philippine Islands,FALSE,FALSE
+46,"A Brown Company, Inc.",BRN,PROPERTY,PROPERTY,2/8/1994,Main Board,A Brown,FALSE,FALSE
+47,Basic Energy Corporation,BSC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Basic Energy,FALSE,FALSE
+48,Chelsea Logistics and Infrastructure Holdings Corp.,C,SERVICES,TRANSPORTATION SERVICES,8/8/2017,Main Board,Chelsea Logistics and Infrastructure Holdings,FALSE,FALSE
+49,Concrete Aggregates Corp. ``A``,CA,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,10/20/1972,Concrete Aggregates,FALSE,FALSE
+50,"Central Azucarera de Tarlac, Inc.",CAT,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,4/12/1977,Central Azucarera de Tarlac,FALSE,FALSE
+51,China Banking Corporation,CBC,FINANCIALS,BANKS,9/1/1927,Main Board,China Banking,FALSE,FALSE
+52,Cityland Development Corporation,CDC,PROPERTY,PROPERTY,8/2/1983,Main Board,Cityland Development,FALSE,FALSE
+53,"Cebu Air, Inc.",CEB,SERVICES,TRANSPORTATION SERVICES,10/26/2010,Main Board,Cebu Air,FALSE,FALSE
+54,"Crown Equities, Inc.",CEI,PROPERTY,PROPERTY,8/16/1994,Main Board,Crown Equities,FALSE,FALSE
+55,Centro Escolar University,CEU,SERVICES,EDUCATION,11/10/1986,Main Board,Centro Escolar University,FALSE,FALSE
+56,"Cemex Holdings Philippines, Inc.",CHP,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,7/18/2016,Cemex Holdings Philippines,FALSE,FALSE
+57,Concepcion Industrial Corporation,CIC,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,11/27/2013,Main Board,Concepcion Industrial,FALSE,FALSE
+58,"Cebu Landmasters, Inc.",CLI,PROPERTY,PROPERTY,6/2/2017,Main Board,Cebu Landmasters,FALSE,FALSE
+59,"Century Pacific Food, Inc.",CNPF,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,5/6/2014,Century Pacific Food,FALSE,FALSE
+60,"Converge Information and Communications Technology Solutions, Inc.",CNVRG,SERVICES,INFORMATION TECHNOLOGY,10/26/2020,Main Board,Converge Information and Communications Technology Solutions,FALSE,FALSE
+61,Coal Asia Holdings Incorporated,COAL,MINING & OIL,MINING,10/23/2012,Main Board,Coal Asia Holdings,FALSE,FALSE
+62,"COL Financial Group, Inc.",COL,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,7/12/2006,Main Board,COL Financial Group,FALSE,FALSE
+63,"Cosco Capital, Inc.",COSCO,HOLDING FIRMS,HOLDING FIRMS,9/26/1988,Main Board,Cosco Capital,FALSE,FALSE
+64,Century Properties Group Inc.,CPG,PROPERTY,PROPERTY,6/16/1976,Main Board,Century Properties Group,FALSE,FALSE
+65,Century Peak Holdings Corporation,CPM,MINING & OIL,MINING,10/6/2009,Main Board,Century Peak Holdings,FALSE,FALSE
+66,Citicore Renewable Energy Corporation,CREC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Citicore Renewable Energy,FALSE,FALSE
+67,Citicore Energy REIT Corp.,CREIT,PROPERTY,PROPERTY,2/22/2022,Main Board,Citicore Energy REIT,FALSE,FALSE
+68,Crown Asia Chemicals Corporation,CROWN,INDUSTRIAL,CHEMICALS,4/27/2015,Main Board,Crown Asia Chemicals,FALSE,FALSE
+69,"Citystate Savings Bank, Inc.",CSB,FINANCIALS,BANKS,1/3/2002,Main Board,Citystate Savings Bank,FALSE,FALSE
+70,"CTS Global Equity Group, Inc.",CTS,SME,SME,4/13/2022,SME Board,CTS Global Equity Group,FALSE,FALSE
+71,Cyber Bay Corporation,CYBR,PROPERTY,PROPERTY,3/19/1991,Main Board,Cyber Bay,FALSE,FALSE
+72,DoubleDragon Corporation,DD,PROPERTY,PROPERTY,4/7/2014,Main Board,DoubleDragon,FALSE,FALSE
+73,"DDMP REIT, Inc.",DDMPR,PROPERTY,PROPERTY,3/24/2021,Main Board,DDMP REIT,FALSE,FALSE
+74,Del Monte Pacific Limited,DELM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,6/10/2013,Del Monte Pacific,FALSE,FALSE
+75,"DFNN, Inc.",DFNN,SERVICES,INFORMATION TECHNOLOGY,10/30/2000,Main Board,DFNN,FALSE,FALSE
+76,"Dominion Holdings, Inc.",DHI,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,1/6/1997,Main Board,Dominion Holdings,FALSE,FALSE
+77,DITO CME Holdings Corp.,DITO,SERVICES,INFORMATION TECHNOLOGY,10/1/1975,Main Board,DITO CME Holdings,FALSE,FALSE
+78,"Dizon Copper-Silver Mines, Inc.",DIZ,MINING & OIL,MINING,2/10/1988,Main Board,Dizon Copper-Silver Mines,FALSE,FALSE
+79,"DMCI Holdings, Inc.",DMC,HOLDING FIRMS,HOLDING FIRMS,12/18/1995,Main Board,DMCI Holdings,FALSE,FALSE
+80,"D.M. Wenceslao & Associates, Incorporated",DMW,PROPERTY,PROPERTY,6/29/2018,Main Board,D.M. Wenceslao & Associates,FALSE,FALSE
+81,Philab Holdings Corp.,DNA,SME,SME,9/3/2009,SME Board,Philab Holdings,FALSE,FALSE
+82,"D&L Industries, Inc.",DNL,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,12/12/2012,D&L Industries,FALSE,FALSE
+83,PLDT INC. -USD,DTEL,SERVICES,TELECOMMUNICATIONS,7/16/2003,Main Board,PLDT INC. -USD,FALSE,FALSE
+84,Discovery World Corporation,DWC,SERVICES,HOTEL & LEISURE,11/21/2013,Main Board,Discovery World,FALSE,FALSE
+85,"Easycall Communications Philippines, Inc.",ECP,SERVICES,OTHER SERVICES,5/5/1992,Main Board,Easycall Communications Philippines,FALSE,FALSE
+86,East Coast Vulcan Mining Corporation,ECVC,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,8/31/1970,East Coast Vulcan Mining,FALSE,FALSE
+87,EEI Corporation,EEI,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,7/21/1975,EEI,FALSE,FALSE
+88,"IP E-Game Ventures, Inc.",EG,SERVICES,CASINOS & GAMING,2/17/2010,Main Board,IP E-Game Ventures,FALSE,FALSE
+89,"Empire East Land Holdings, Inc.",ELI,PROPERTY,PROPERTY,6/28/1996,Main Board,Empire East Land Holdings,FALSE,FALSE
+90,Emperador Inc.,EMI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,12/19/2011,Emperador,FALSE,FALSE
+91,ENEX Energy Corp.,ENEX,MINING & OIL,OIL,8/28/2014,Main Board,ENEX Energy,FALSE,FALSE
+92,"Euro-Med Laboratories Phil., Inc.",EURO,INDUSTRIAL,CHEMICALS,7/2/1998,Main Board,Euro-Med Laboratories Phil.,FALSE,FALSE
+93,"Ever-Gotesco Resources and Holdings, Inc.",EVER,PROPERTY,PROPERTY,9/16/1996,Main Board,Ever-Gotesco Resources and Holdings,FALSE,FALSE
+94,East West Banking Corporation,EW,FINANCIALS,BANKS,5/7/2012,Main Board,East West Banking,FALSE,FALSE
+95,First Abacus Financial Holdings Corp.,FAF,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,11/17/1994,Main Board,First Abacus Financial Holdings,FALSE,FALSE
+96,"San Miguel Food and Beverage, Inc.",FB,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,10/28/1971,San Miguel Food and Beverage,FALSE,FALSE
+97,"Figaro Coffee Group, Inc.",FCG,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1/24/2022,Figaro Coffee Group,FALSE,FALSE
+98,Filinvest Development Corporation,FDC,HOLDING FIRMS,HOLDING FIRMS,12/22/1982,Main Board,Filinvest Development,FALSE,FALSE
+99,"Ferronoux Holdings, Inc.",FERRO,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,8/13/2013,Main Board,Ferronoux Holdings,FALSE,FALSE
+100,"Far Eastern University, Incorporated",FEU,SERVICES,EDUCATION,7/11/1986,Main Board,Far Eastern University,FALSE,FALSE
+101,"Filipino Fund, Inc.",FFI,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,9/27/1995,Main Board,Filipino Fund,FALSE,FALSE
+102,First Gen Corporation,FGEN,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,First Gen,FALSE,FALSE
+103,Filinvest REIT Corp.,FILRT,PROPERTY,PROPERTY,8/12/2021,Main Board,Filinvest REIT,FALSE,FALSE
+104,F&J Prince Holdings Corporation ``A``,FJP,HOLDING FIRMS,HOLDING FIRMS,12/8/1982,Main Board,F&J Prince Holdings,FALSE,FALSE
+105,"Filinvest Land, Inc.",FLI,PROPERTY,PROPERTY,10/25/1993,Main Board,Filinvest Land,FALSE,FALSE
+106,"First Metro Philippine Equity Exchange Traded Fund, Inc.",FMETF,ETF,ETF-EQUITY,12/2/2013,Main Board,First Metro Philippine Equity Exchange Traded Fund,FALSE,FALSE
+107,"Global Ferronickel Holdings, Inc.",FNI,MINING & OIL,MINING,12/14/1994,Main Board,Global Ferronickel Holdings,FALSE,FALSE
+108,"Alliance Select Foods International, Inc.",FOOD,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,11/8/2006,Alliance Select Foods International,FALSE,FALSE
+109,First Philippine Holdings Corporation,FPH,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,First Philippine Holdings,FALSE,FALSE
+110,"Forum Pacific, Inc.",FPI,HOLDING FIRMS,HOLDING FIRMS,12/19/1994,Main Board,Forum Pacific,FALSE,FALSE
+111,"Fruitas Holdings, Inc.",FRUIT,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,11/29/2019,Fruitas Holdings,FALSE,FALSE
+112,Filsyn Corporation ``A``,FYN,INDUSTRIAL,OTHER INDUSTRIALS,6/3/1975,Main Board,Filsyn,FALSE,FALSE
+113,"GEOGRACE Resources Philippines, Inc.",GEO,MINING & OIL,MINING,2/7/1972,Main Board,GEOGRACE Resources Philippines,FALSE,FALSE
+114,"Global-Estate Resorts, Inc.",GERI,PROPERTY,PROPERTY,11/23/1995,Main Board,Global-Estate Resorts,FALSE,FALSE
+115,"Globe Telecom, Inc.",GLO,SERVICES,TELECOMMUNICATIONS,8/11/1975,Main Board,Globe Telecom,FALSE,FALSE
+116,"GMA Network, Inc.",GMA7,SERVICES,MEDIA,7/30/2007,Main Board,GMA Network,FALSE,FALSE
+117,Grand Plaza Hotel Corporation,GPH,SERVICES,HOTEL & LEISURE,12/10/1992,Main Board,Grand Plaza Hotel,FALSE,FALSE
+118,Greenergy Holdings Incorporated,GREEN,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,9/26/1996,Main Board,Greenergy Holdings,FALSE,FALSE
+119,"Ginebra San Miguel, Inc.",GSMI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,4/18/1995,Ginebra San Miguel,FALSE,FALSE
+120,"GT Capital Holdings, Inc.",GTCAP,HOLDING FIRMS,HOLDING FIRMS,4/20/2012,Main Board,GT Capital Holdings,FALSE,FALSE
+121,"House of Investments, Inc.",HI,HOLDING FIRMS,HOLDING FIRMS,7/2/1962,Main Board,House of Investments,FALSE,FALSE
+122,AllHome Corp.,HOME,SERVICES,RETAIL,10/10/2019,Main Board,AllHome,FALSE,FALSE
+123,"8990 Holdings, Inc.",HOUSE,PROPERTY,PROPERTY,12/9/2010,Main Board,8990 Holdings,FALSE,FALSE
+124,"Haus Talk, Inc.",HTI,SME,SME,1/17/2022,SME Board,Haus Talk,FALSE,FALSE
+125,"Golden MV Holdings, Inc.",HVN,PROPERTY,PROPERTY,6/29/2016,Main Board,Golden MV Holdings,FALSE,FALSE
+126,"I-Remit, Inc.",I,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,10/17/2007,Main Board,I-Remit,FALSE,FALSE
+127,"International Container Terminal Services, Inc.",ICT,SERVICES,TRANSPORTATION SERVICES,3/23/1992,Main Board,International Container Terminal Services,FALSE,FALSE
+128,Italpinas Development Corporation,IDC,SME,SME,12/7/2015,SME Board,Italpinas Development,FALSE,FALSE
+129,"Integrated Micro-Electronics, Inc.",IMI,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,1/21/2010,Main Board,Integrated Micro-Electronics,FALSE,FALSE
+130,"Imperial Resources, Inc.",IMP,SERVICES,INFORMATION TECHNOLOGY,8/31/1970,Main Board,Imperial Resources,FALSE,FALSE
+131,Philippine Infradev Holdings Inc.,INFRA,PROPERTY,PROPERTY,2/27/1978,Main Board,Philippine Infradev Holdings,FALSE,FALSE
+132,"Ionics, Inc.",ION,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,7/18/1995,Main Board,Ionics,FALSE,FALSE
+133,"IPM Holdings, Inc.",IPM,SERVICES,OTHER SERVICES,6/17/1998,Main Board,IPM Holdings,FALSE,FALSE
+134,"iPeople, Inc.",IPO,SERVICES,EDUCATION,1/24/1990,Main Board,iPeople,FALSE,FALSE
+135,"Island Information & Technology, Inc.",IS,SERVICES,INFORMATION TECHNOLOGY,12/6/1988,Main Board,Island Information & Technology,FALSE,FALSE
+136,"Jackstones, Inc.",JAS,SERVICES,INFORMATION TECHNOLOGY,10/27/1967,Main Board,Jackstones,FALSE,FALSE
+137,Jollibee Foods Corporation,JFC,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,7/14/1993,Jollibee Foods,FALSE,FALSE
+138,"JG Summit Holdings, Inc.",JGS,HOLDING FIRMS,HOLDING FIRMS,8/9/1993,Main Board,JG Summit Holdings,FALSE,FALSE
+139,Jolliville Holdings Corporation,JOH,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Jolliville Holdings,FALSE,FALSE
+140,"The Keepers Holdings, Inc.",KEEPR,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,9/3/1991,The Keepers Holdings,FALSE,FALSE
+141,"Keppel Philippines Properties, Inc.",KEP,PROPERTY,PROPERTY,9/11/1989,Main Board,Keppel Philippines Properties,FALSE,FALSE
+142,"Keppel Philippines Holdings, Inc. ``A``",KPH,HOLDING FIRMS,HOLDING FIRMS,8/26/1987,Main Board,Keppel Philippines Holdings,FALSE,FALSE
+143,"Kepwealth Property Phils., Inc.",KPPI,SME,SME,8/19/2019,SME Board,Kepwealth Property Phils.,FALSE,FALSE
+144,"City & Land Developers, Incorporated",LAND,PROPERTY,PROPERTY,12/13/1999,Main Board,City & Land Developers,FALSE,FALSE
+145,"LBC Express Holdings, Inc.",LBC,SERVICES,TRANSPORTATION SERVICES,12/21/2001,Main Board,LBC Express Holdings,FALSE,FALSE
+146,Lepanto Consolidated Mining Company ``A``,LC,MINING & OIL,MINING,4/30/1947,Main Board,Lepanto Consolidated Mining,FALSE,FALSE
+147,"Liberty Flour Mills, Inc.",LFM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,4/25/1985,Liberty Flour Mills,FALSE,FALSE
+148,LMG Corp.,LMG,INDUSTRIAL,CHEMICALS,1/7/1986,Main Board,LMG,FALSE,FALSE
+149,Lodestar Investment Holdings Corporation,LODE,HOLDING FIRMS,HOLDING FIRMS,5/26/1989,Main Board,Lodestar Investment Holdings,FALSE,FALSE
+150,Pacific Online Systems Corporation,LOTO,SERVICES,CASINOS & GAMING,4/12/2007,Main Board,Pacific Online Systems,FALSE,FALSE
+151,LFM Properties Corporation,LPC,SME,SME,11/9/2022,SME Board,LFM Properties,FALSE,FALSE
+152,Lopez Holdings Corporation,LPZ,HOLDING FIRMS,HOLDING FIRMS,11/25/1993,Main Board,Lopez Holdings,FALSE,FALSE
+153,Lorenzo Shipping Corporation,LSC,SERVICES,TRANSPORTATION SERVICES,7/22/1996,Main Board,Lorenzo Shipping,FALSE,FALSE
+154,"LT Group, Inc.",LTG,HOLDING FIRMS,HOLDING FIRMS,11/7/1947,Main Board,LT Group,FALSE,FALSE
+155,Manila Mining Corporation ``A``,MA,MINING & OIL,MINING,12/17/1959,Main Board,Manila Mining,FALSE,FALSE
+156,MacroAsia Corporation,MAC,SERVICES,TRANSPORTATION SERVICES,5/21/1970,Main Board,MacroAsia,FALSE,FALSE
+157,"Macay Holdings, Inc.",MACAY,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1/28/1987,Macay Holdings,FALSE,FALSE
+158,Metro Alliance Holdings & Equities Corp. ``A``,MAH,SERVICES,TRANSPORTATION SERVICES,12/8/1947,Main Board,Metro Alliance Holdings & Equities,FALSE,FALSE
+159,"Marcventures Holdings, Inc.",MARC,MINING & OIL,MINING,1/10/1958,Main Board,Marcventures Holdings,FALSE,FALSE
+160,"Max`s Group, Inc.",MAXS,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,12/15/2000,Max`s Group,FALSE,FALSE
+161,Manila Bulletin Publishing Corporation,MB,SERVICES,MEDIA,4/18/1990,Main Board,Manila Bulletin Publishing,FALSE,FALSE
+162,Manila Broadcasting Company,MBC,SERVICES,MEDIA,10/8/1949,Main Board,Manila Broadcasting,FALSE,FALSE
+163,Metropolitan Bank & Trust Company,MBT,FINANCIALS,BANKS,2/26/1981,Main Board,Metropolitan Bank & Trust,FALSE,FALSE
+164,"Medco Holdings, Inc.",MED,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,11/18/1975,Main Board,Medco Holdings,FALSE,FALSE
+165,Medilines Distributors Incorporated,MEDIC,SERVICES,OTHER SERVICES,12/7/2021,Main Board,Medilines Distributors,FALSE,FALSE
+166,Megaworld Corporation,MEG,PROPERTY,PROPERTY,6/15/1994,Main Board,Megaworld,FALSE,FALSE
+167,Manila Electric Company,MER,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Manila Electric,FALSE,FALSE
+168,Manulife Financial Corporation,MFC,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,9/27/1999,Main Board,Manulife Financial,FALSE,FALSE
+169,Makati Finance Corporation,MFIN,SME,SME,1/6/2003,SME Board,Makati Finance,FALSE,FALSE
+170,"Millennium Global Holdings, Inc.",MG,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,3/1/1976,Millennium Global Holdings,FALSE,FALSE
+171,Metro Global Holdings Corporation,MGH,HOLDING FIRMS,HOLDING FIRMS,5/4/1964,Main Board,Metro Global Holdings,FALSE,FALSE
+172,Mabuhay Holdings Corporation,MHC,HOLDING FIRMS,HOLDING FIRMS,10/22/1990,Main Board,Mabuhay Holdings,FALSE,FALSE
+173,"Manila Jockey Club, Inc.",MJC,SERVICES,CASINOS & GAMING,10/11/1963,Main Board,Manila Jockey Club,FALSE,FALSE
+174,MJC Investments Corporation,MJIC,SERVICES,CASINOS & GAMING,11/11/1955,Main Board,MJC Investments,FALSE,FALSE
+175,MerryMart Consumer Corp.,MM,SME,SME,6/15/2020,SME Board,MerryMart Consumer,FALSE,FALSE
+176,Monde Nissin Corporation,MONDE,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,6/1/2021,Monde Nissin,FALSE,FALSE
+177,"MRC Allied, Inc.",MRC,PROPERTY,PROPERTY,5/18/1995,Main Board,MRC Allied,FALSE,FALSE
+178,"MREIT, Inc.",MREIT,PROPERTY,PROPERTY,10/1/2021,Main Board,MREIT,FALSE,FALSE
+179,"Metro Retail Stores Group, Inc.",MRSGI,SERVICES,RETAIL,11/24/2015,Main Board,Metro Retail Stores Group,FALSE,FALSE
+180,Mabuhay Vinyl Corporation,MVC,INDUSTRIAL,CHEMICALS,2/5/1997,Main Board,Mabuhay Vinyl,FALSE,FALSE
+181,"Manila Water Company, Inc.",MWC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Manila Water,FALSE,FALSE
+182,Megawide Construction Corporation,MWIDE,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2/18/2011,Megawide Construction,FALSE,FALSE
+183,"NiHAO Mineral Resources International, Inc.",NI,MINING & OIL,MINING,10/3/1990,Main Board,NiHAO Mineral Resources International,FALSE,FALSE
+184,Nickel Asia Corporation,NIKL,MINING & OIL,MINING,11/22/2010,Main Board,Nickel Asia,FALSE,FALSE
+185,Now Corporation,NOW,SERVICES,INFORMATION TECHNOLOGY,7/23/2003,Main Board,Now,FALSE,FALSE
+186,National Reinsurance Corporation of the Philippines,NRCP,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,4/27/2007,Main Board,National Reinsurance Corporation of the Philippines,FALSE,FALSE
+187,NextGenesis Corporation,NXGEN,FINANCIALS,BANKS,10/8/1996,Main Board,NextGenesis,FALSE,FALSE
+188,"OceanaGold (Philippines), Inc.",OGP,MINING & OIL,MINING,5/13/2024,Main Board,OceanaGold (Philippines,FALSE,FALSE
+189,Omico Corporation,OM,PROPERTY,PROPERTY,5/2/1969,Main Board,Omico,FALSE,FALSE
+190,Oriental Petroleum and Minerals Corporation ``A``,OPM,MINING & OIL,OIL,10/14/1970,Main Board,Oriental Petroleum and Minerals,FALSE,FALSE
+191,"Oriental Peninsula Resources Group, Inc.",ORE,MINING & OIL,MINING,12/19/2007,Main Board,Oriental Peninsula Resources Group,FALSE,FALSE
+192,The Philodrill Corporation,OV,MINING & OIL,OIL,9/25/1969,Main Board,The Philodrill,FALSE,FALSE
+193,"Pacifica Holdings, Inc.",PA,HOLDING FIRMS,HOLDING FIRMS,11/23/1959,Main Board,Pacifica Holdings,FALSE,FALSE
+194,"PAL Holdings, Inc.",PAL,SERVICES,TRANSPORTATION SERVICES,1/4/1954,Main Board,PAL Holdings,FALSE,FALSE
+195,"Paxys, Inc.",PAX,SERVICES,OTHER SERVICES,10/5/1972,Main Board,Paxys,FALSE,FALSE
+196,"Philippine Business Bank, Inc., A Savings Bank",PBB,FINANCIALS,BANKS,2/19/2013,Main Board,"Philippine Business Bank, Inc., A Savings Bank",FALSE,FALSE
+197,Philippine Bank of Communications,PBC,FINANCIALS,BANKS,5/12/1988,Main Board,Philippine Bank of Communications,FALSE,FALSE
+198,Petron Corporation,PCOR,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Petron,FALSE,FALSE
+199,PetroEnergy Resources Corporation,PERC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,PetroEnergy Resources,FALSE,FALSE
+200,"Puregold Price Club, Inc.",PGOLD,SERVICES,RETAIL,10/5/2011,Main Board,Puregold Price Club,FALSE,FALSE
+201,Premiere Horizon Alliance Corporation,PHA,SERVICES,OTHER SERVICES,5/5/1997,Main Board,Premiere Horizon Alliance,FALSE,FALSE
+202,Philcomsat Holdings Corporation,PHC,SERVICES,OTHER SERVICES,11/28/1958,Main Board,Philcomsat Holdings,FALSE,FALSE
+203,Philippine Estates Corporation,PHES,PROPERTY,PROPERTY,1/21/1985,Main Board,Philippine Estates,FALSE,FALSE
+204,Phinma Corporation,PHN,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,8/18/1958,Phinma,FALSE,FALSE
+205,"PH Resorts Group Holdings, Inc.",PHR,SERVICES,CASINOS & GAMING,11/24/2011,Main Board,PH Resorts Group Holdings,FALSE,FALSE
+206,Shakey`s Pizza Asia Ventures Inc.,PIZZA,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,12/15/2016,Shakey`s Pizza Asia Ventures,FALSE,FALSE
+207,DigiPlus Interactive Corp.,PLUS,SERVICES,CASINOS & GAMING,4/17/1958,Main Board,DigiPlus Interactive,FALSE,FALSE
+208,Panasonic Manufacturing Philippines Corporation,PMPC,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,1/21/1983,Main Board,Panasonic Manufacturing Philippines,FALSE,FALSE
+209,Philippine National Bank,PNB,FINANCIALS,BANKS,6/21/1989,Main Board,Philippine National Bank,FALSE,FALSE
+210,Philippine National Construction Corporation,PNC,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,3/13/1974,Philippine National Construction,FALSE,FALSE
+211,"P-H-O-E-N-I-X PETROLEUM PHILIPPINES, INC.",PNX,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,P-H-O-E-N-I-X PETROLEUM PHILIPPINES,FALSE,FALSE
+212,"Globalport 900, Inc.",PORT,SERVICES,TRANSPORTATION SERVICES,6/9/1948,Main Board,Globalport 900,FALSE,FALSE
+213,Pryce Corporation,PPC,INDUSTRIAL,CHEMICALS,10/29/1991,Main Board,Pryce,FALSE,FALSE
+214,"Philippine Racing Club, Inc.",PRC,SERVICES,CASINOS & GAMING,3/2/1952,Main Board,Philippine Racing Club,FALSE,FALSE
+215,Premiere Island Power REIT Corporation,PREIT,PROPERTY,PROPERTY,12/15/2022,Main Board,Premiere Island Power REIT,FALSE,FALSE
+216,"Prime Media Holdings, Inc.",PRIM,HOLDING FIRMS,HOLDING FIRMS,7/29/1964,Main Board,Prime Media Holdings,FALSE,FALSE
+217,Primex Corporation,PRMX,PROPERTY,PROPERTY,8/10/2001,Main Board,Primex,FALSE,FALSE
+218,Philippine Savings Bank,PSB,FINANCIALS,BANKS,10/10/1994,Main Board,Philippine Savings Bank,FALSE,FALSE
+219,"The Philippine Stock Exchange, Inc.",PSE,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,12/15/2003,Main Board,The Philippine Stock Exchange,FALSE,FALSE
+220,Philippine Trust Company,PTC,FINANCIALS,BANKS,2/17/1988,Main Board,Philippine Trust,FALSE,FALSE
+221,PT&T Corp.,PTT,SERVICES,TELECOMMUNICATIONS,1/10/1990,Main Board,PT&T,FALSE,FALSE
+222,Philex Mining Corporation,PX,MINING & OIL,MINING,11/23/1956,Main Board,Philex Mining,FALSE,FALSE
+223,PXP Energy Corporation,PXP,MINING & OIL,OIL,9/12/2011,Main Board,PXP Energy,FALSE,FALSE
+224,Rizal Commercial Banking Corporation,RCB,FINANCIALS,BANKS,11/6/1986,Main Board,Rizal Commercial Banking,FALSE,FALSE
+225,"Roxas and Company, Inc.",RCI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,11/29/1948,Roxas,FALSE,FALSE
+226,"RL Commercial REIT, Inc.",RCR,PROPERTY,PROPERTY,9/14/2021,Main Board,RL Commercial REIT,FALSE,FALSE
+227,Repower Energy Development Corporation,REDC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Repower Energy Development,FALSE,FALSE
+228,Republic Glass Holdings Corporation,REG,HOLDING FIRMS,HOLDING FIRMS,7/17/1959,Main Board,Republic Glass Holdings,FALSE,FALSE
+229,RFM Corporation,RFM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2/21/1966,RFM,FALSE,FALSE
+230,Robinsons Land Corporation,RLC,PROPERTY,PROPERTY,10/16/1989,Main Board,Robinsons Land,FALSE,FALSE
+231,Philippine Realty and Holdings Corporation,RLT,PROPERTY,PROPERTY,9/7/1987,Main Board,Philippine Realty and Holdings,FALSE,FALSE
+232,Rockwell Land Corporation,ROCK,PROPERTY,PROPERTY,5/11/2012,Main Board,Rockwell Land,FALSE,FALSE
+233,"Roxas Holdings, Inc.",ROX,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,8/8/1996,Roxas Holdings,FALSE,FALSE
+234,"Robinsons Retail Holdings, Inc.",RRHI,SERVICES,RETAIL,11/11/2013,Main Board,Robinsons Retail Holdings,FALSE,FALSE
+235,SBS Philippines Corporation,SBS,SERVICES,OTHER SERVICES,8/10/2015,Main Board,SBS Philippines,FALSE,FALSE
+236,Semirara Mining and Power Corporation,SCC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Semirara Mining and Power,FALSE,FALSE
+237,Security Bank Corporation,SECB,FINANCIALS,BANKS,6/8/1995,Main Board,Security Bank,FALSE,FALSE
+238,Philippine Seven Corporation,SEVN,SERVICES,RETAIL,2/4/1998,Main Board,Philippine Seven,FALSE,FALSE
+239,"Swift Foods, Inc.",SFI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,11/15/1994,Swift Foods,FALSE,FALSE
+240,"Solid Group, Inc.",SGI,HOLDING FIRMS,HOLDING FIRMS,4/26/1948,Main Board,Solid Group,FALSE,FALSE
+241,"Synergy Grid & Development Phils., Inc.",SGP,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Synergy Grid & Development Phils.,FALSE,FALSE
+242,Shell Pilipinas Corporation,SHLPH,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Shell Pilipinas,FALSE,FALSE
+243,"Shang Properties, Inc.",SHNG,PROPERTY,PROPERTY,6/13/1991,Main Board,Shang Properties,FALSE,FALSE
+244,Sun Life Financial Inc.,SLF,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,3/24/2000,Main Board,Sun Life Financial,FALSE,FALSE
+245,"Sta. Lucia Land, Inc.",SLI,PROPERTY,PROPERTY,9/14/1987,Main Board,Sta. Lucia Land,FALSE,FALSE
+246,SM Investments Corporation,SM,HOLDING FIRMS,HOLDING FIRMS,3/22/2005,Main Board,SM Investments,FALSE,FALSE
+247,San Miguel Corporation,SMC,HOLDING FIRMS,HOLDING FIRMS,11/5/1948,Main Board,San Miguel,FALSE,FALSE
+248,"SM Prime Holdings, Inc.",SMPH,PROPERTY,PROPERTY,7/5/1994,Main Board,SM Prime Holdings,FALSE,FALSE
+249,"SOCResources, Inc.",SOC,PROPERTY,PROPERTY,1/5/1994,Main Board,SOCResources,FALSE,FALSE
+250,SPC Power Corporation,SPC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,SPC Power,FALSE,FALSE
+251,Seafront Resources Corporation,SPM,HOLDING FIRMS,HOLDING FIRMS,5/7/1974,Main Board,Seafront Resources,FALSE,FALSE
+252,SP New Energy Corporation,SPNEC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,SP New Energy,FALSE,FALSE
+253,Supercity Realty Development Corporation,SRDC,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,12/19/2003,Supercity Realty Development,FALSE,FALSE
+254,"SSI Group, Inc.",SSI,SERVICES,RETAIL,11/7/2014,Main Board,SSI Group,FALSE,FALSE
+255,SFA Semicon Philippines Corporation,SSP,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,12/1/2014,Main Board,SFA Semicon Philippines,FALSE,FALSE
+256,"STI Education Systems Holdings, Inc.",STI,SERVICES,EDUCATION,10/12/1976,Main Board,STI Education Systems Holdings,FALSE,FALSE
+257,Steniel Manufacturing Corporation,STN,INDUSTRIAL,OTHER INDUSTRIALS,11/22/1993,Main Board,Steniel Manufacturing,FALSE,FALSE
+258,"Vistamalls, Inc.",STR,PROPERTY,PROPERTY,11/17/1970,Main Board,Vistamalls,FALSE,FALSE
+259,"Suntrust Resort Holdings, Inc.",SUN,PROPERTY,PROPERTY,2/11/1959,Main Board,Suntrust Resort Holdings,FALSE,FALSE
+260,TKC Metals Corporation,T,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,7/20/2001,TKC Metals,FALSE,FALSE
+261,Transpacific Broadband Group Int`l. Inc.,TBGI,SERVICES,INFORMATION TECHNOLOGY,12/12/2003,Main Board,Transpacific Broadband Group Int`l.,FALSE,FALSE
+262,Cirtek Holdings Philippines Corporation,TECH,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,11/18/2011,Main Board,Cirtek Holdings Philippines,FALSE,FALSE
+263,PLDT Inc.,TEL,SERVICES,TELECOMMUNICATIONS,9/17/1953,Main Board,PLDT,FALSE,FALSE
+264,PTFC Redevelopment Corporation,TFC,PROPERTY,PROPERTY,12/19/1955,Main Board,PTFC Redevelopment,FALSE,FALSE
+265,"Top Frontier Investment Holdings, Inc.",TFHI,HOLDING FIRMS,HOLDING FIRMS,1/13/2014,Main Board,Top Frontier Investment Holdings,FALSE,FALSE
+266,"Harbor Star Shipping Services, Inc.",TUGS,SERVICES,TRANSPORTATION SERVICES,10/30/2013,Main Board,Harbor Star Shipping Services,FALSE,FALSE
+267,Union Bank of the Philippines,UBP,FINANCIALS,BANKS,6/29/1992,Main Board,Union Bank of the Philippines,FALSE,FALSE
+268,Uniholdings Inc.,UNH,INDUSTRIAL,CHEMICALS,11/21/1985,Main Board,Uniholdings,FALSE,FALSE
+269,United Paragon Mining Corporation,UPM,MINING & OIL,MINING,8/31/1972,Main Board,United Paragon Mining,FALSE,FALSE
+270,Upson International Corp.,UPSON,SERVICES,RETAIL,4/3/2023,Main Board,Upson International,FALSE,FALSE
+271,Universal Robina Corporation,URC,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,3/25/1994,Universal Robina,FALSE,FALSE
+272,"Vantage Equities, Inc.",V,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,3/30/1993,Main Board,Vantage Equities,FALSE,FALSE
+273,Vitarich Corporation,VITA,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2/8/1995,Vitarich,FALSE,FALSE
+274,"Vista Land & Lifescapes, Inc.",VLL,PROPERTY,PROPERTY,6/25/2007,Main Board,Vista Land & Lifescapes,FALSE,FALSE
+275,"Victorias Milling Company, Inc.",VMC,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,11/15/1993,Victorias Milling,FALSE,FALSE
+276,"VistaREIT, Inc.",VREIT,PROPERTY,PROPERTY,6/15/2022,Main Board,VistaREIT,FALSE,FALSE
+277,Vivant Corporation,VVT,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,Vivant,FALSE,FALSE
+278,Philweb Corporation,WEB,SERVICES,CASINOS & GAMING,12/8/1969,Main Board,Philweb,FALSE,FALSE
+279,"Wellex Industries, Inc.",WIN,HOLDING FIRMS,HOLDING FIRMS,1/9/1958,Main Board,Wellex Industries,FALSE,FALSE
+280,"Wilcon Depot, Inc.",WLCON,SERVICES,RETAIL,3/31/2017,Main Board,Wilcon Depot,FALSE,FALSE
+281,"Waterfront Philippines, Incorporated",WPI,SERVICES,HOTEL & LEISURE,3/17/1995,Main Board,Waterfront Philippines,FALSE,FALSE
+282,Xurpas Inc.,X,SME,SME,12/2/2014,SME Board,Xurpas,FALSE,FALSE
+283,NexGen Energy Corp.,XG,SME,SME,7/16/2024,SME Board,NexGen Energy,FALSE,FALSE
+284,"Zeus Holdings, Inc.",ZHI,HOLDING FIRMS,HOLDING FIRMS,7/15/1991,Main Board,Zeus Holdings,FALSE,FALSE
+285,Mcdonalds,,HOLDING FIRMS,FOOD,7/15/1991,Main Board,Mcdonalds,FALSE,FALSE
+286,Jollibee,,HOLDING FIRMS,FOOD,7/15/1991,Main Board,Jollibee,FALSE,FALSE
