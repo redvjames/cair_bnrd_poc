@@ -59,7 +59,7 @@ if st.button('Validate Business Name'):
     df_bn['levenshtein'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(input_bn, x))
 
     if 100 in df_bn['levenshtein'].values:
-        st.write(f"Business Name already exists")
+        st.title(f"Business Name already exists")
     else:
         # df_bn['soundex'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(jellyfish.soundex(input_bn), 
         #                                                                      jellyfish.soundex(x)))
@@ -77,7 +77,7 @@ if st.button('Validate Business Name'):
             df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound[1]].sort_values('epitran', 
                                                                                       ascending=False)[['Company Name', 
                                                                                                         'epitran']].reset_index(drop=True)
-            st.write(f"Business Name is too similar with an exisiting Busines Name")
+            st.title(f"Business Name is too similar with an exisiting Busines Name")
             col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
             with col2:
                 st.write("Spelling Similarity")
@@ -92,7 +92,7 @@ if st.button('Validate Business Name'):
             df_sound = df_bn.loc[df_bn['epitran'] >= threshold_sound[0]].sort_values('epitran', 
                                                                                       ascending=False)[['Company Name', 
                                                                                                         'epitran']].reset_index(drop=True)
-            st.write(f"For Post Evaluation")
+            st.title(f"For Post Evaluation")
             col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
             with col2:
                 st.write("Spelling Similarity")
