@@ -136,6 +136,6 @@ else:
     input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
 
     # st.dataframe(), height=300, width=300)
-    st.experimental_data_editor(pd.DataFrame(columns=['Business Name']))
+    st.data_editor(pd.DataFrame(columns=['Business Name']), num_rows= "dynamic")
     if st.button('Validate Business Name'):
         None
