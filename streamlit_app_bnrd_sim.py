@@ -136,10 +136,10 @@ else:
     
     if st.button('Validate Business Name'):
         df_bn = df_data.copy()
-        df_data['Business Name'] = df_data['Business Name'].str.lower().apply(clean_text)
+        df_bn['Business Name'] = df_bn['Business Name'].str.lower().apply(clean_text)
         
         epi = epitran.Epitran('tgl-Latn')
-        df_data['ipa'] = df_data['Business Name'].apply(lambda x: epi.transliterate(x))
+        df_bn['ipa'] = df_bn['Business Name'].apply(lambda x: epi.transliterate(x))
         df_bn['levenshtein'] = df_bn['Business Name'].apply(lambda x: fuzz.ratio(input_bn, x))
         df_bn['epitran'] = df_bn['ipa'].apply(lambda x: fuzz.ratio(epi.transliterate(input_bn), x))
 
