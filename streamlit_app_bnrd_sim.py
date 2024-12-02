@@ -18,7 +18,7 @@ def clean_text(text):
 poc_option = st.sidebar.radio(
     "POC",
     ["Option 1", "Option 2"],
-    caption=['Compare from database', 'Compare Words']
+    captions=['Compare from database', 'Compare Words']
     , horizontal=True
 )
 
