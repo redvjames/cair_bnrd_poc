@@ -16,7 +16,7 @@ def clean_text(text):
     return re.sub(r'[^A-Za-z0-9 ]', '', text)
 
 poc_option = st.sidebar.radio(
-    "POC",
+    "Proof of Concept Choices",
     ["Option 1", "Option 2"],
     captions=['Compare from database', 'Compare Words']
     , horizontal=True
