@@ -132,6 +132,10 @@ else:
         )
     input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
 
+    text_input2 = st.text_input(
+            "Input Business Name/s to compare 👇",
+        )
+
     df_data = st.data_editor(pd.DataFrame(columns=['Business Name']), num_rows= "dynamic")
     
     if st.button('Validate Business Name'):
