@@ -140,7 +140,7 @@ else:
     
     if st.button('Validate Business Name'):
         df_bn = df_data.copy()
-        df_data['Business Name'] = df_data['Company Name'].str.lower().apply(clean_text)
+        df_data['Business Name'] = df_data['Business Name'].str.lower().apply(clean_text)
         
         epi = epitran.Epitran('tgl-Latn')
         df_data['ipa'] = df_data['Business Name'].apply(lambda x: epi.transliterate(x))
