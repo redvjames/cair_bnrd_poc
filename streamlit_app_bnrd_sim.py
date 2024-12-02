@@ -28,7 +28,7 @@ threshold_spell = st.sidebar.slider(
 threshold_sound = st.sidebar.slider(
     "Phonetics Similarity Threshold Score", min_value=0, max_value=100, step=5, value=[60,80])
 
-if poc_option = 'Option 1':
+if poc_option == 'Option 1':
     df_data = pd.read_csv('./data/company_v3.csv')[['Dominant_Name']]\
                                 .rename(columns={'Dominant_Name': 'Company Name'})
     df_data['Business Name'] = df_data['Company Name'].str.lower().apply(clean_text)
