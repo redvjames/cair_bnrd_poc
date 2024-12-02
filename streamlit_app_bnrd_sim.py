@@ -135,7 +135,7 @@ else:
         )
     input_bn = re.sub(r'[^A-Za-z0-9 ]', '', text_input.lower())
 
-    st.dataframe(pd.Dataframe(columns=['Business Name']), height=300, width=300)
+    st.dataframe(pd.DataFrame(columns=['Business Name']), height=300, width=300)
 
     if st.button('Validate Business Name'):
         None
