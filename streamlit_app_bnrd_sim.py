@@ -77,10 +77,16 @@ if poc_option == 'Option 1':
                 col2, col3 = st.columns([2.5, 2.5])  # Adjust the ratio as needed
                 with col2:
                     st.write("Spelling Similarity")
-                    st.dataframe(df_bn[['Company Name', 'levenshtein']].head(5), height=300, width=300)
+                    st.dataframe(df_bn[['Company Name', 
+                                        'levenshtein']].sort_values('levenshtein', 
+                                                                    ascending=False).head(5), 
+                                 height=300, width=300)
                 with col3:
                     st.write("Phonetic Similarity")
-                    st.dataframe(df_bn[['Company Name', 'levenshtein']].head(5), height=300, width=300)
+                    st.dataframe(df_bn[['Company Name', 
+                                        'levenshtein']].sort_values('epitran', 
+                                                                    ascending=False).head(5), 
+                                 height=300, width=300)
             elif (df_bn['levenshtein'] >= threshold_spell[1]).any() & (df_bn['epitran'] >= threshold_sound[1]).any():
                 df_spell = df_bn.loc[df_bn['levenshtein'] >= threshold_spell[1]].sort_values('levenshtein', 
                                                                                           ascending=False)[['Company Name', 
