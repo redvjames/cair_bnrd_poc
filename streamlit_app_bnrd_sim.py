@@ -84,7 +84,7 @@ if poc_option == 'Option 1':
                 with col3:
                     st.write("Phonetic Similarity")
                     st.dataframe(df_bn[['Company Name', 
-                                        'levenshtein']].sort_values('epitran', 
+                                        'epitran']].sort_values('epitran', 
                                                                     ascending=False).head(5), 
                                  height=300, width=300)
             elif (df_bn['levenshtein'] >= threshold_spell[1]).any() & (df_bn['epitran'] >= threshold_sound[1]).any():
